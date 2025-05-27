@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MICRO_microblaze_0_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_dlmb_v10_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_ilmb_v10_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MICRO_dlmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="MICRO_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_lmb_bram_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_mdm_1_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_clk_wiz_1_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_axi_gpio_0_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_axi_gpio_1_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_axi_gpio_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_axi_gpio_2_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_axi_gpio_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_axi_gpio_3_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_axi_gpio_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MICRO_axi_gpio_2_0_synth_1"/>
+	</Run>
+	<Run Id="MICRO_axi_gpio_4_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_axi_gpio_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="MICRO_axi_gpio_2_0_synth_1"/>
+	</Run>
+	<Run Id="MICRO_xbar_1_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_axi_uartlite_0_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MICRO_inverse_divisor_0_0_synth_1" LaunchDir="C:/Users/Alireza/kos/micro.runs/MICRO_inverse_divisor_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,6 @@
+00:19:15 INFO  : Registering command handlers for SDK TCF services
+00:19:17 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Alireza\kos\micro.sdk\temp_xsdb_launch_script.tcl
+00:19:22 INFO  : XSCT server has started successfully.
+00:19:22 INFO  : Successfully done setting XSCT server connection channel  
+00:19:29 INFO  : Successfully done setting SDK workspace  
+00:19:29 INFO  : Processing command line option -hwspec C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper.hdf.

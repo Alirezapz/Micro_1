@@ -1,0 +1,31 @@
+vhdl xil_defaultlib  \
+"../../../bd/MICRO/ip/MICRO_microblaze_0_0/sim/MICRO_microblaze_0_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_dlmb_v10_0/sim/MICRO_dlmb_v10_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_ilmb_v10_0/sim/MICRO_ilmb_v10_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_dlmb_bram_if_cntlr_0/sim/MICRO_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_ilmb_bram_if_cntlr_0/sim/MICRO_ilmb_bram_if_cntlr_0.vhd" \
+"c:/Users/Alireza/kos/micro.srcs/sources_1/bd/MICRO/ip/MICRO_lmb_bram_0/MICRO_lmb_bram_0_sim_netlist.vhdl" \
+"../../../bd/MICRO/ip/MICRO_mdm_1_0/sim/MICRO_mdm_1_0.vhd" \
+"c:/Users/Alireza/kos/micro.srcs/sources_1/bd/MICRO/ip/MICRO_clk_wiz_1_0/MICRO_clk_wiz_1_0_sim_netlist.vhdl" \
+"../../../bd/MICRO/ip/MICRO_rst_clk_wiz_1_100M_0/sim/MICRO_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_axi_gpio_0_0/sim/MICRO_axi_gpio_0_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_axi_gpio_1_0/sim/MICRO_axi_gpio_1_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_axi_gpio_2_0/sim/MICRO_axi_gpio_2_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_axi_gpio_3_0/sim/MICRO_axi_gpio_3_0.vhd" \
+"../../../bd/MICRO/ip/MICRO_axi_gpio_4_0/sim/MICRO_axi_gpio_4_0.vhd" \
+"c:/Users/Alireza/kos/micro.srcs/sources_1/bd/MICRO/ip/MICRO_xbar_1/MICRO_xbar_1_sim_netlist.vhdl" \
+"../../../bd/MICRO/ip/MICRO_axi_uartlite_0_0/sim/MICRO_axi_uartlite_0_0.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/vhdl/inverse_divisor_CTRL_BUS_s_axi.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/vhdl/inverse_divisor_ddEe.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/vhdl/inverse_divisor_deOg.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/vhdl/inverse_divisor_mbkb.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/vhdl/inverse_divisor_ocud.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/vhdl/inverse_divisor_ufYi.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/vhdl/inverse_divisor.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/ip/inverse_divisor_ap_ddiv_29_no_dsp_64.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/ip/inverse_divisor_ap_dmul_3_max_dsp_64.vhd" \
+"../../../../micro.srcs/sources_1/bd/MICRO/ipshared/5ab7/hdl/ip/inverse_divisor_ap_uitodp_3_no_dsp_32.vhd" \
+"../../../bd/MICRO/ip/MICRO_inverse_divisor_0_0/sim/MICRO_inverse_divisor_0_0.vhd" \
+"../../../bd/MICRO/sim/MICRO.vhd" \
+
+nosort

@@ -1,0 +1,173 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include <xil_io.h>
+#include "xuartlite.h"
+#include "xgpio.h"
+#include "xil_printf.h"
+
+// GPIO Definitions
+#define DIVIDER_OUT_BASE XPAR_AXI_GPIO_0_BASEADDR
+#define DIVIDER_OUT_RDY_BASE XPAR_AXI_GPIO_1_BASEADDR
+#define GRAY_OUT_BASE XPAR_AXI_GPIO_2_BASEADDR
+#define GRAY_OUT_RDY_BASE XPAR_AXI_GPIO_3_BASEADDR
+#define ERROR_BASE XPAR_AXI_GPIO_4_BASEADDR
+
+// UART Definitions
+#define UARTLITE_DEVICE_ID XPAR_AXI_UARTLITE_0_DEVICE_ID
+XUartLite UartLite;
+
+// Command Definitions
+#define HEADER 0x3B
+#define DIVIDE_COMMAND 0x00
+#define RGB_GRAY_COMM 0xFF
+
+// Function prototypes
+void processDivideCommand(u8* data);
+void processRGBtoGrayCommand(u8* data);
+u8 calculateChecksum(u8* data, u8 length);
+void setError(u8 errorCode);
+
+int main() {
+    u8 receivedData[12]; // Buffer for received data
+    u8 dataIndex = 0;
+    u8 byteCount = 0;
+    u8 currentByte;
+    u8 checksum;
+    u8 expectedChecksum;
+
+    // Initialize UART
+    XUartLite_Initialize(&UartLite, UARTLITE_DEVICE_ID);
+
+    // Initialize GPIOs
+    XGpio dividerOut, dividerOutRdy, grayOut, grayOutRdy, errorOut;
+    XGpio_Initialize(&dividerOut, XPAR_AXI_GPIO_0_DEVICE_ID);
+    XGpio_Initialize(&dividerOutRdy, XPAR_AXI_GPIO_1_DEVICE_ID);
+    XGpio_Initialize(&grayOut, XPAR_AXI_GPIO_2_DEVICE_ID);
+    XGpio_Initialize(&grayOutRdy, XPAR_AXI_GPIO_3_DEVICE_ID);
+    XGpio_Initialize(&errorOut, XPAR_AXI_GPIO_4_DEVICE_ID);
+
+    // Set GPIO directions
+    XGpio_SetDataDirection(&dividerOut, 1, 0x00000000); // Output
+    XGpio_SetDataDirection(&dividerOutRdy, 1, 0x00000000); // Output
+    XGpio_SetDataDirection(&grayOut, 1, 0x00000000); // Output
+    XGpio_SetDataDirection(&grayOutRdy, 1, 0x00000000); // Output
+    XGpio_SetDataDirection(&errorOut, 1, 0x00000000); // Output
+
+    xil_printf("MicroBlaze System Ready\n\r");
+
+    while (1) {
+        // Wait for data
+        while (!XUartLite_IsReceiveData(UART_BASE_ADDRESS));
+        currentByte = XUartLite_RecvByte(UART_BASE_ADDRESS);
+
+        // Check for header
+        if (currentByte == HEADER && dataIndex == 0) {
+            receivedData[dataIndex++] = currentByte;
+            continue;
+        }
+
+        // If we have header, process command
+        if (dataIndex > 0) {
+            receivedData[dataIndex++] = currentByte;
+
+            // First byte after header is command
+            if (dataIndex == 2) {
+                switch (currentByte) {
+                    case DIVIDE_COMMAND:
+                        byteCount = 9; // Need 9 more bytes
+                        break;
+                    case RGB_GRAY_COMM:
+                        byteCount = 3; // Need 3 more bytes (R, G, B)
+                        break;
+                    default:
+                        // Invalid command
+                        setError(0x01); // Invalid command error
+                        dataIndex = 0;
+                        break;
+                }
+            }
+
+            // Check if we've received all expected data
+            if (dataIndex == (byteCount + 2 + 1)) { // +2 for header/command, +1 for checksum
+                // Verify checksum (last byte)
+                expectedChecksum = receivedData[dataIndex-1];
+                checksum = calculateChecksum(receivedData, dataIndex-1);
+
+                if (checksum != expectedChecksum) {
+                    setError(0x02); // Checksum error
+                } else {
+                    // Process command
+                    switch (receivedData[1]) { // Command byte
+                        case DIVIDE_COMMAND:
+                            processDivideCommand(receivedData);
+                            break;
+                        case RGB_GRAY_COMM:
+                            processRGBtoGrayCommand(receivedData);
+                            break;
+                    }
+                }
+
+                // Reset for next command
+                dataIndex = 0;
+            }
+        }
+    }
+
+    return 0;
+}
+
+void processDivideCommand(u8* data) {
+    // Data starts at index 2 (after header and command)
+    // 9 bytes of data expected
+
+    // Here you would send data to your IP core and wait for result
+    // For now, we'll just output the sum as an example
+
+    u32 sum = 0;
+    for (int i = 0; i < 9; i++) {
+        sum += data[2 + i];
+    }
+
+    // Output to divider output GPIO
+    XGpio_DiscreteWrite(&dividerOut, 1, sum);
+
+    // Pulse ready signal
+    XGpio_DiscreteWrite(&dividerOutRdy, 1, 1);
+    for (volatile int i = 0; i < 1000; i++); // Small delay
+    XGpio_DiscreteWrite(&dividerOutRdy, 1, 0);
+}
+
+void processRGBtoGrayCommand(u8* data) {
+    // Data starts at index 2 (after header and command)
+    // 3 bytes: R, G, B
+
+    u8 R = data[2];
+    u8 G = data[3];
+    u8 B = data[4];
+
+    // Convert to grayscale using standard weights
+    float grayFloat = 0.299f * R + 0.587f * G + 0.114f * B;
+    u8 gray = (u8)(grayFloat + 0.5f); // Round to nearest integer
+
+    // Output to gray output GPIO
+    XGpio_DiscreteWrite(&grayOut, 1, gray);
+
+    // Pulse ready signal
+    XGpio_DiscreteWrite(&grayOutRdy, 1, 1);
+    for (volatile int i = 0; i < 1000; i++); // Small delay
+    XGpio_DiscreteWrite(&grayOutRdy, 1, 0);
+}
+
+u8 calculateChecksum(u8* data, u8 length) {
+    u8 sum = 0;
+    for (int i = 0; i < length; i++) {
+        sum += data[i];
+    }
+    return sum;
+}
+
+void setError(u8 errorCode) {
+    XGpio_DiscreteWrite(&errorOut, 1, errorCode);
+    for (volatile int i = 0; i < 1000; i++); // Small delay
+    XGpio_DiscreteWrite(&errorOut, 1, 0);
+}

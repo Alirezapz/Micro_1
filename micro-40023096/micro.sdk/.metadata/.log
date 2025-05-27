@@ -1,0 +1,3171 @@
+!SESSION 2025-05-08 00:18:11.725 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/Alireza/kos/micro.sdk
+
+!ENTRY org.eclipse.ui 2 0 2025-05-08 00:19:07.257
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-08 00:19:07.257
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-08 00:19:08.028
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-08 00:19:08.028
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:22.283
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:22.283
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:22.317
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:22.326
+!MESSAGE XSCT Command: [setws C:/Users/Alireza/kos/micro.sdk], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:29.859
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:29.860
+!MESSAGE XSCT command with result: [setws C:/Users/Alireza/kos/micro.sdk], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:29.932
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.197
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.217
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.221
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7s100",
+"family": "spartan7",
+"timestamp": "Wed May  7 23:14:24 2025",
+"vivado_version": "2019.1",
+"part": "xc7s100fgga676-2",
+}]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.224
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.233
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_3": {"hier_name": "axi_gpio_3",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_4": {"hier_name": "axi_gpio_4",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_interconnect_0": {"hier_name": "axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"inverse_divisor_0": {"hier_name": "inverse_divisor_0",
+"type": "inverse_divisor",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.389
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.398
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x40010000",
+"high": "0x4001FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_3_S_AXI": {"name": "axi_gpio_3",
+"base": "0x40030000",
+"high": "0x4003FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_4_S_AXI": {"name": "axi_gpio_4",
+"base": "0x40040000",
+"high": "0x4004FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"inverse_divisor_0_s_axi_CTRL_BUS": {"name": "inverse_divisor_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "s_axi_CTRL_BUS",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.435
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf mdm_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.439
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.480
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:19:33.534
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_1": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_2": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_3": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_4": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"inverse_divisor_0": {"CTRL": {"description": "Control signals",
+"address_offset": "0",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"AP_START": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_start'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"AP_DONE": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_done'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_IDLE": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_idle'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AP_READY": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'ap_ready'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED_1": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "3",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"AUTO_RESTART": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Control signal Register for 'auto_restart'.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED_2": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable Register",
+"address_offset": "4",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "31",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable Register",
+"address_offset": "8",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"CHAN0_INT_EN": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CHAN1_INT_EN": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "30",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status Register",
+"address_offset": "12",
+"access": "read-write",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"CHAN0_INT_ST": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 input interrupt, 1 = Channel 0 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"CHAN1_INT_ST": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 input interrupt, 1 = Channel 1 input interrup",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "30",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"ap_return": {"description": "Data signal of ap_return",
+"address_offset": "16",
+"access": "read-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"ap_return": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Bit 31 to 0 Data signal of ap_return",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c0": {"description": "Data signal of c0",
+"address_offset": "24",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c0": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c0",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c1": {"description": "Data signal of c1",
+"address_offset": "32",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c1": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c1",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c2": {"description": "Data signal of c2",
+"address_offset": "40",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c2": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c2",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c3": {"description": "Data signal of c3",
+"address_offset": "48",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c3": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c3",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c4": {"description": "Data signal of c4",
+"address_offset": "56",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c4": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c4",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c5": {"description": "Data signal of c5",
+"address_offset": "64",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c5": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c5",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c6": {"description": "Data signal of c6",
+"address_offset": "72",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c6": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c6",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c7": {"description": "Data signal of c7",
+"address_offset": "80",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c7": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c7",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+"c8": {"description": "Data signal of c8",
+"address_offset": "88",
+"access": "write-only",
+"size": "32",
+"interface": "s_axi_CTRL_BUS",
+"fields": {"c8": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "Bit 7 to 0 Data signal of c8",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RESERVED": {"access": "read-only",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "24",
+"desc": "Reserved.  0s on read.",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "modify",
+},
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.393
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.403
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_3": {"name": "freertos10_xilinx",
+"version": "1.3",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_3",
+},
+"standalone_v7_0": {"name": "standalone",
+"version": "7.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/bsp/standalone_v7_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.436
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.439
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.441
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_DATA_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.445
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_DATA_SIZE], Result: [null, 32]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.456
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.460
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.461
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.464
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.467
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.470
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.484
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.488
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.510
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.514
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.515
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.564
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexr5 psu_cortexa72 psv_cortexa72",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexr5 psu_cortexa72 psv_cortexa72",
+"supp_os": "standalone xilkernel",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "standalone",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "standalone",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "standalone",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze psv_cortexa72 psv_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family and serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"versal_plm": {"userdefname": "versal PLM",
+"description": "Platform Loader and Manager for versal.",
+"supp_proc": "psu_pmc psv_pmc",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/versal_plm",
+"os": "standalone",
+},
+"versal_psmfw": {"userdefname": "versal PSM Firmware",
+"description": "Processing System Management Unit Firmware for versal.",
+"supp_proc": "psu_psm psv_psm",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/versal_psmfw",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"async_buffer": {"userdefname": "async_buffer",
+"description": "A graph to demonstrate cardano async windows. Use Other flags --enable-async-window and mapper option -c0 with default compilation options",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps_linux/async_buffer",
+"os": "standalone_v7_0",
+},
+"GMIO_bandwidth": {"userdefname": "GMIO_bandwidth",
+"description": "A graph to demonstrate GMIO performance profiling. Use Device file S20.MEPL.json and Other flags -use-phy-shim -use-real-noc with default compilation options.",
+"supp_proc": "ai_engine",
+"supp_os": "freertos10_xilinx standalone linux",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps_linux/GMIO_bandwidth",
+"os": "standalone_v7_0",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.570
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.612
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.615
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:15.633
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:18.686
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:18.690
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:18.930
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:18.934
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:19.124
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:19.127
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:19.735
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:19.739
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:19.906
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:19.910
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:20.536
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:20.539
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:21.205
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:21.209
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:21.335
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:21.339
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:22.156
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:22.161
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:23.431
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf -sw micro_bsp -dir C:/Users/Alireza/kos/micro.sdk/micro_bsp -processor microblaze_0 -os standalone -app hello_world], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:23.474
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf -sw micro_bsp -dir C:/Users/Alireza/kos/micro.sdk/micro_bsp -processor microblaze_0 -os standalone -app hello_world], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:23.773
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:23.778
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:23.779
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:23.800
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:23.802
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss C:/Users/Alireza/kos/micro.sdk/micro_bsp], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:27.906
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss C:/Users/Alireza/kos/micro.sdk/micro_bsp], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.540
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.544
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.544
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.547
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.548
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.551
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.568
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.571
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.572
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.574
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.576
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.598
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.599
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.602
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.604
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.606
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.630
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.649
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.650
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.656
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.657
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.661
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_gpio_4 axi_uartlite_0 inverse_divisor_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.662
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.670
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_3": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_4": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"inverse_divisor_0": {"name": "inverse_divisor",
+"ver": "1.0",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.9",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.672
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.719
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_gpio_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_1": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_2": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_3": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_4": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_interconnect_0": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"inverse_divisor_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"inverse_divisor_v1_0": {"name": "inverse_divisor",
+"version": "1.0",
+"repo": "C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/drivers/inverse_divisor_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_9": {"name": "cpu",
+"version": "2.9",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_3": {"name": "bram",
+"version": "4.3",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_3": {"name": "bram",
+"version": "4.3",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Games/xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.721
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.724
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.725
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.728
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.729
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.731
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.767
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.771
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.772
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.776
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.777
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.779
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.779
+!MESSAGE XSCT Command: [::hsi::utils::opensw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.781
+!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.783
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf -sw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss -app hello_world -processor microblaze_0 -os standalone -dir C:/Users/Alireza/kos/micro.sdk/micro/src], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:29.897
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf -sw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss -app hello_world -processor microblaze_0 -os standalone -dir C:/Users/Alireza/kos/micro.sdk/micro/src], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.263
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.267
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.267
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.271
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.302
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.309
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_3": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_4": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"inverse_divisor_0": {"name": "inverse_divisor",
+"ver": "1.0",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.9",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.359
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.363
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.363
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.367
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.382
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.385
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.425
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:30.428
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:31.012
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:31.017
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:31.019
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:31.024
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:31.056
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:31.060
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/Alireza/kos/micro.sdk/MICRO_wrapper_hw_platform_0/system.hdf C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:31.101
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-05-08 00:20:31.103
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Alireza/kos/micro.sdk/micro_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:32.125
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:32.364
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:32.376
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:33.005
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:33.013
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:33.221
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:33.231
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:33.571
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:33.582
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:33.764
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:33.769
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:35.112
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:35.121
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:35.449
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:35.459
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:35.579
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:38.223
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:38.502
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:38.508
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:38.619
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:38.998
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:39.005
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:39.115
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:40.153
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:40.159
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:40.245
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:40.925
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:40.934
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:41.085
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:43.535
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:43.537
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:43.538
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:45.316
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:45.324
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:45.428
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:46.568
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-05-08 00:20:46.594
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-08 00:20:47.341
+!MESSAGE Indexed 'micro' (2 sources, 52 headers) in 0.611 sec: 1,533 declarations; 2,236 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-08 00:20:48.109
+!MESSAGE Indexed 'micro_bsp' (52 sources, 92 headers) in 0.754 sec: 2,034 declarations; 7,811 references; 48 unresolved inclusions; 5 syntax errors; 41 unresolved names (0.41%)
